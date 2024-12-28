@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone GitHub Repo') {
             steps {
-                git 'https://github.com/your-username/your-repo.git' 
+                git 'https://github.com/VishalRpR/aws_data_pipeline.git' 
             }
         }
         stage('Terraform Init and Apply') {
